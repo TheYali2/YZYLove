@@ -207,7 +207,7 @@ export const YE_ITEMS: YeItem[] = [
     artist: "Ye (Kanye West)",
     best_song: "Preacher Man",
     streamCount: "9,794,880",
-    downloadUrl: "https://thepiratebay.org/description.php?id=79600785"
+    downloadUrl: "https://thepiratebay.org/description.php?id=78558199"
   },
   {
     id: 'GAJ',
