@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>YZY LOVE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['"IBM Plex Mono"', 'monospace'],
+            },
+            colors: {
+              'yzy-gray': '#86837d',
+              'yzy-cream': '#e4cbb6',
+              'yzy-dark': '#352929',
+              'yzy-black': '#000000',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out forwards',
+              'blur-in': 'blurIn 0.3s ease-out forwards',
+              'blur-out': 'blurOut 0.3s ease-in forwards',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              blurIn: {
+                '0%': { opacity: '0', backdropFilter: 'blur(0px)' },
+                '100%': { opacity: '1', backdropFilter: 'blur(8px)' },
+              },
+              blurOut: {
+                '0%': { opacity: '1', backdropFilter: 'blur(8px)' },
+                '100%': { opacity: '0', backdropFilter: 'blur(0px)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+        @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 300;
+            src: url('https://yeezy.com/fonts/ibm/IBMPlexMono-Light.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 400;
+            src: url('https://yeezy.com/fonts/ibm/IBMPlexMono-Regular.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 500;
+            src: url('https://yeezy.com/fonts/ibm/IBMPlexMono-Medium.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 600;
+            src: url('https://yeezy.com/fonts/ibm/IBMPlexMono-SemiBold.ttf') format('truetype');
+        }
+
+        :root {
+            --font-ibm-plex-mono: "IBM Plex Mono", monospace;
+            --duration: 0.8s;
+            --spacing: 0.25rem;
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --ease-out: cubic-bezier(0, 0, 0.2, 1);
+        }
+
+        body {
+            font-family: 'IBM Plex Mono', monospace;
+            background-color: #ffffff;
+            color: #000000;
+            overflow-x: hidden;
+            text-transform: uppercase;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin: 0;
+            padding: 0;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .fly-up-reverse {
+            animation: fly-up-reverse var(--duration) cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+
+        .fly-down-reverse {
+            animation: fly-down-reverse var(--duration) cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+
+        @keyframes fly-up-reverse {
+            0% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fly-down-reverse {
+            0% {
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .product-grid {
+            display: grid;
+            gap: calc(var(--spacing) * 4);
+            grid-template-columns: repeat(var(--col-count, 2), minmax(0, 1fr));
+            width: 100%;
+            padding-bottom: 2rem;
+            will-change: transform;
+            opacity: 1;
+        }
+
+        @media (min-width: 768px) {
+            .product-grid {
+                gap: 1rem;
+            }
+        }
+
+        .product-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .product-image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            transition: opacity 0.3s ease;
+        }
+
+        .product-label {
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        button:focus {
+            outline: none;
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
