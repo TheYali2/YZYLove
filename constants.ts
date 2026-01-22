@@ -78,7 +78,7 @@ export const YE_ITEMS: YeItem[] = [
     code: 'CS',
     name: 'Cruel Summer',
     type: 'ALBUM',
-    image: 'https://upload.wikimedia.org/wikipedia/en/a/ab/CruelSummercover.jpg',
+    image: 'https://i.scdn.co/image/ab67616d0000b2733a2d2b9621ef645380c63c16',
     year: '2012',
     artist: "Ye (Kanye West)",
     best_song: "Mercy",
