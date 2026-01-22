@@ -22,7 +22,7 @@ export const XIcon = () => (
 );
 
 export const LogoIcon = () => (
-    <div className="font-mono font-bold tracking-tighter text-xl">
+    <div className="font-mono font-bold tracking-tighter text-xl text-black">
         YZY LOVE
     </div>
 );
