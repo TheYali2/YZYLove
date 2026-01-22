@@ -83,7 +83,7 @@ export const YE_ITEMS: YeItem[] = [
     artist: "Ye (Kanye West)",
     best_song: "Mercy",
     streamCount: "457,030,537",
-    albumUrl: "https://www.youtube.com/playlist?list=PLHuECk8wTymB5HLhXBpY_2tohfg5ub8Ld"
+    albumUrl: "https://open.spotify.com/album/0bcOGgwJpwBjfFBTApoqSn"
   },
   {
     id: 'YEEZUS',
