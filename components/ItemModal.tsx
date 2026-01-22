@@ -110,7 +110,7 @@ export const ItemModal: React.FC<ItemModalProps> = ({ item, onClose }) => {
         buttonText = "DOWNLOAD ALBUM";
     }
 
-    if (item?.code === 'GAJ' || item?.code === 'YNDH' || item?.code === 'CS') {
+    if (item?.code === 'GAJ' || item?.code === 'YNDH' || item?.code === 'WAR') {
         buttonText = "PLAY";
     }
 
