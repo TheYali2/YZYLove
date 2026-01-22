@@ -254,6 +254,6 @@ export const YE_ITEMS: YeItem[] = [
     best_song: "Unknown",
     streamCount: "Unknown Streams",
     disableDownload: false,
-    downloadUrl: "https://www.youtube.com/watch?v=3YhGlHWGCsc"
+    downloadUrl: "https://untitled.stream/library/project/bRHxmAn0tcByCsAmu0Wuw"
   }
 ];
