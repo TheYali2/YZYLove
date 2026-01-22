@@ -10,6 +10,7 @@ export const Footer: React.FC = () => {
 
         <div className="flex gap-4">
           <span>© 2026 YZY LOVE</span>
+          <span>Made By a Fan</span>
         </div>
       </div>
     </footer>
