@@ -81,7 +81,7 @@ export const YE_ITEMS: YeItem[] = [
     image: 'https://i.scdn.co/image/ab67616d0000b2733a2d2b9621ef645380c63c16',
     year: '2012',
     artist: "Ye (Kanye West)",
-    best_song: "Mercy",
+    best_song: "Clique",
     streamCount: "457,030,537",
     albumUrl: "https://open.spotify.com/album/0bcOGgwJpwBjfFBTApoqSn"
   },
