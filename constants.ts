@@ -211,7 +211,7 @@ export const YE_ITEMS: YeItem[] = [
     code: 'SHMG',
     name: 'So Help Me God',
     type: 'UNRELEASED',
-    image: 'https://static.wikia.nocookie.net/kanyewest/images/f/f4/So_Help_Me_God_album_cover.jpg/revision/latest/scale-to-width-down/1000?cb=20231221023400',
+    image: 'https://i.ibb.co/zHtXPwk6/image-2026-01-22-160112326.png',
     year: '2014-2015',
     artist: "Kanye West",
     best_song: "Unknown",
