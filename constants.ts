@@ -74,6 +74,18 @@ export const YE_ITEMS: YeItem[] = [
     albumUrl: "https://open.spotify.com/album/0OcMap99vLEeGkBCfCwRwS"
   },
   {
+    id: 'CS',
+    code: 'CS',
+    name: 'Cruel Summer',
+    type: 'ALBUM',
+    image: 'https://upload.wikimedia.org/wikipedia/en/a/ab/CruelSummercover.jpg',
+    year: '2012',
+    artist: "Ye (Kanye West)",
+    best_song: "Mercy",
+    streamCount: "457,030,537",
+    albumUrl: "https://www.youtube.com/playlist?list=PLHuECk8wTymB5HLhXBpY_2tohfg5ub8Ld"
+  },
+  {
     id: 'YEEZUS',
     code: 'YEEZUS',
     name: 'Yeezus',
