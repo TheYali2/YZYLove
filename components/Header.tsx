@@ -15,12 +15,6 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick, onCartClick }) => {
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
         <LogoIcon />
       </div>
-
-      <div className="flex items-center gap-4">
-        <button onClick={onCartClick} className="uppercase text-xs tracking-widest hover:opacity-50 transition-opacity">
-          CART
-        </button>
-      </div>
     </nav>
   );
 };
