@@ -20,6 +20,3 @@ export const XIcon = () => (
     <path d="m6 6 12 12" />
   </svg>
 );
-
-export const LogoIcon = () => (
-);
