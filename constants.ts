@@ -211,7 +211,7 @@ export const YE_ITEMS: YeItem[] = [
     code: 'SHMG',
     name: 'So Help Me God',
     type: 'UNRELEASED',
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpreview.redd.it%2Fo06iat6lbkk51.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D696fb78f9eec048c3be2531e41e720c0f86b1b36&f=1&nofb=1&ipt=b820998f983c5410a5ce7a84d33d70cb65e4f4e4c742804d7904cbc149561db1',
+    image: 'https://static.wikia.nocookie.net/kanyewest/images/f/f4/So_Help_Me_God_album_cover.jpg/revision/latest/scale-to-width-down/1000?cb=20231221023400',
     year: '2014-2015',
     artist: "Kanye West",
     best_song: "Unknown",
@@ -223,7 +223,7 @@ export const YE_ITEMS: YeItem[] = [
     code: 'YNDH',
     name: 'Yandhi',
     type: 'UNRELEASED',
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.genius.com%2F96257331e42fd82012b16e4312d68257.1000x1000x1.jpg&f=1&nofb=1&ipt=71b65b232338a4380a6f2dd432d6b863bd75a55ea84eac3fea35d63a52c9ec91',
+    image: 'https://t2.genius.com/unsafe/861x0/https%3A%2F%2Fimages.genius.com%2F96257331e42fd82012b16e4312d68257.1000x1000x1.jpg',
     year: '2018-2019',
     artist: "Ye",
     best_song: "Unknown",
@@ -236,11 +236,12 @@ export const YE_ITEMS: YeItem[] = [
     code: 'WAR',
     name: 'War',
     type: 'UNRELEASED',
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.albumoftheyear.org%2Falbum%2F1221620-war_160103.jpg&f=1&nofb=1&ipt=462e4b898dc333c6e52af46c6c220adc0e284052e95a1da2a4c223e8853bcbe7',
+    image: 'https://t2.genius.com/unsafe/861x0/https%3A%2F%2Fimages.genius.com%2F84f84e381fedaffc7666201da5f6b3c1.535x535x1.png',
     year: '2022',
     artist: "Ye",
     best_song: "Unknown",
     streamCount: "Unknown Streams",
-    disableDownload: true
+    disableDownload: false,
+    downloadUrl: "https://www.youtube.com/watch?v=3YhGlHWGCsc"
   }
 ];
